@@ -17,12 +17,19 @@ para correrlos en una maquina distinta.
 Requerimientos Parcial Línea de profundización
 
 1.) Ejecutar en consola mysql llamado “MyParcial_WLDM.sql” ejm: source RUTADELARCHIVO
+
 2.) Ejecutar en consola mysql llamado “paquetes.sql” ejm: source RUTADELARCHIVO
+
 3.) Ejecutar en consola: CALL traepaciente();   // Muestra todos los pacientes (Punto 1)
+
 4.) Ejecutar en consola: CALL traedoctores();   // Muestra todos los doctores (Punto 2)
-	Ejecutar en consola: CALL traeocupacion();   // Muestra todos los doctores (Punto 2)
-	Ejecutar en consola: CALL traeespecialidad();   // Muestra todos los doctores (Punto 2)
+
+Ejecutar en consola: CALL traeocupacion();   // Muestra todos los doctores (Punto 2)
+
+Ejecutar en consola: CALL traeespecialidad();   // Muestra todos los doctores (Punto 2)
+
 5.) Ejecutar en consola: CALL setagendarCita(id, idDoctor, idPaciente, hora, fecha, tiempoduracion, valor, estado); (Punto 3) 
 
 6.) Ejecutar en consola: CALL sethorarioDoctores(id, idDoctor, dia, horainicio, horafin); (Punto 4)
+
 7.) Ejecutar en consola la linea: CALL finalizarCobrarCitas();
