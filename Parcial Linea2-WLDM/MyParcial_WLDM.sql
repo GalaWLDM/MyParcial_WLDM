@@ -38,6 +38,7 @@ CREATE TABLE doctor(
 	idD int,
 	nombre varchar(50),
 	apellido varchar(50),
+	especialidad varchar(20),
 	telefono varchar(50),
 	email varchar(50),
 	PRIMARY KEY (idD)
@@ -82,8 +83,8 @@ INSERT INTO paciente VALUES (105, 'ESTEBAN', 'MARMOLEJO', 'CRA NACIONAL II, KM.0
 
 -- Insercion de registros en la tabla doctor
 
-INSERT INTO doctor VALUES (201, 'JENIFFER', 'ZAPATA', '937466315', 'docente.jvzapata@unac.edu.co');
-INSERT INTO doctor VALUES (202, 'WALTER', 'ARBOLEDA', '937466320', 'warboleda@unac.edu.co');
+INSERT INTO doctor VALUES (201, 'JENIFFER', 'ZAPATA', 'estetica', '937466315', 'docente.jvzapata@unac.edu.co');
+INSERT INTO doctor VALUES (202, 'WALTER', 'ARBOLEDA', 'ortodoncia', '937466320', 'warboleda@unac.edu.co');
 
 --
 --
