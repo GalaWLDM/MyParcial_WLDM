@@ -76,7 +76,7 @@ CREATE TABLE cita(
 -- Insercion de registros en la tabla paciente
 
 INSERT INTO paciente VALUES (101, 'SAAIBI', 'FLOREZ', 'TRAV DE GRACIA,47-08021', '932002207', 'Estudiante', '1996-30-12' 33, 'M');
-INSERT INTO paciente VALUES (102, 'WILMAR', 'PEÑA', 'TRAV DE GRACIA,47-08021', '934143309', 'Estudiante', '1994-02-04' , 34, 'M');
+INSERT INTO paciente VALUES (102, 'WILMAR', 'PEÑA', 'TRAV DE GRACIA,47-08021', '934143309', 'Estudiante', '1994-02-04', 34, 'M');
 INSERT INTO paciente VALUES (103, 'KEDWIN', 'PEREZ', 'TRAV GRACIA (DE),47-08021', '932001868', 'Estudiante', '1998-05-09', 45, 'M');
 INSERT INTO paciente VALUES (104, 'DAVID', 'RAMOS', 'TRAV GRACIA (DE),49-08021', '936761964', 'Estudiante', '1993-26-01', 23, 'M');
 INSERT INTO paciente VALUES (105, 'ESTEBAN', 'MARMOLEJO', 'CRA NACIONAL II, KM.0599,7-08780', 'Estudiante', '1994-13-06', 34, 'M');
